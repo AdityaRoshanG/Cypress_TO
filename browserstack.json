@@ -1,0 +1,51 @@
+{
+    "auth": {
+        "username": "adityaroshandemo_NODHGL",
+        "access_key": "ayGc3m89Sj8dsDUNqQLu"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "project_name": "cypress sample",
+        "build_name": "cypress sample",
+        "exclude": [],
+        "parallels": "1",
+        "npm_dependencies": {
+        "browserstack-cypress-cli": "1.24.3",
+        "npm-run-all": "^4.1.2",
+        "serve": "14.2.0",
+        "@bahmutov/print-env": "1.3.0",
+        "colon-names": "1.0.0",
+        "cypress": "12.10.0",
+        "eslint": "8.44.0",
+        "eslint-plugin-cypress": "2.13.3",
+        "eslint-plugin-json-format": "2.0.1",
+        "eslint-plugin-mocha": "10.1.0",
+        "execa": "2.1.0",
+        "globby": "11.1.0",
+        "husky": "8.0.3",
+        "semantic-release": "21.0.7",
+        "start-server-and-test": "2.0.0",
+        "yaml-lint": "1.7.0"
+    },
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false,
+    "testObservability": true
+}
